@@ -1,0 +1,50 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Weather-app-container {
+  width: 550px;
+  /* height: 300px; */
+  background-color: #eee;
+  border-radius: 10px;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  border-bottom: 1px solid gray;
+}
+.temp-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px 20px;
+}
+.temp-details div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+hr {
+  margin: 10px 0;
+}
+.temp-dgree {
+  font-size: 6em;
+  font-weight: 900;
+}
+.temp-dgree span {
+  font-size: 40px;
+  font-weight: none;
+  color: rgba(43, 43, 42, 0.7);
+}
